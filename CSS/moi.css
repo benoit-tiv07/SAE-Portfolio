@@ -28,3 +28,15 @@ article .texte_présentation {
     padding: 10px;
     width: 100%;
 }
+article .texte_présentation h2 {
+    margin: 0 0 5px 0;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 5px 10px 10px 5px;
+}
+article .texte_présentation h3 {
+    margin: 5px 0 5px 0;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 5px 10px 5px 10px;
+}
