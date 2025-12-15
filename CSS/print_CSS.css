@@ -1,0 +1,19 @@
+@media print {
+  nav,             
+  footer,             
+  .sidebar,           
+  .no-print,          
+  button {display: none !important;}
+  body, main, .content {
+    background: white !important;
+    background-image: none !important;
+    color: black !important;
+    font-size: 12pt;}
+  .container, .wrapper {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;}
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;}}
